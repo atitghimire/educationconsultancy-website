@@ -58,7 +58,7 @@ function About() {
         <header className='height-75'>
             <div className='container h-100 d-flex flex-column align-items-center justify-content-center text-light'>
                 <h1 className='text-center fw-semibold'>About Us</h1>
-                <p className='text-center w-75 mb-5'>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Error recusandae harum ullam repellat cum? Nisi unde, incidunt natus ut ratione dolore quasi at dolores molestias.</p>
+                <p className='text-center w-75 mb-5'>Glad to Share what we East Rising Sun Academy as a Organization we are and what you can expect from us.</p>
             </div>
         </header>
 
@@ -66,8 +66,11 @@ function About() {
             <div className="row">
                 <div className='col-lg-6 d-flex flex-column justify-content-center mb-4 mb-lg-0'>
                     <h2 className='mb-4 mb-lg-5'>Study with us</h2>
-                    <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Consequatur, sunt saepe fugit dolores error mollitia doloribus optio, recusandae aperiam, nihil eius rem eum eaque sequi. Earum perspiciatis laudantium at quo sapiente perferendis distinctio, voluptatum obcaecati ipsa, eos nesciunt saepe adipisci placeat ducimus! Dignissimos quaerat fugiat consequuntur tempora fuga eveniet nobis!</p>
-                    <p className='mb-4 mb-lg-5'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Et quas ipsa assumenda eos veritatis nemo fuga dolore saepe eius, laborum earum magni id quae quidem tempore tempora consequuntur eveniet voluptatibus, suscipit atque, voluptatem blanditiis deleniti perferendis dolores. Architecto corporis sit suscipit labore modi sint facilis alias laboriosam facere et? Quo eum neque dolores iure, nam voluptates nesciunt quisquam modi maxime alias! Blanditiis vel dicta voluptates ab vero quia incidunt facilis ratione deserunt, inventore atque necessitatibus?</p>
+                    <p><b>EAST RISING SUN ACADEMY</b> - A Name That Needs no introduction. Situated at Koteshwor, Kathmandu. We have been at your service since 8 years. During these 8 years we have had countles number of success which we are proud to share with you. Starting a institute to teach aspirant who want to work or study in South Korea and Japan and we also provided computer training, English language training and Bridge Courses to 10th Class Passout. We are also proud to share with you that we have the best passing percentage among institues in our location averaging over 64% every year. We have well experienced teachers and resource materials to make sure, you have everything in your journey to success <br /></p>
+                    <p className='mb-4 mb-lg-5'>Now, we are so excited to share with you that we have partnered with one of the most successful consultancies in Hetauda, <b>SAFE Education Pvt. Ltd.</b> and we will provide you IELTS, PTE, GMAT, GRE Classes to make your dream to study in USA, Canada, Australia come true. 
+                    <br/> <br />
+                    <b>LETS JOIN HANDS AND MAKE US YOUR PARTNER IN YOUR JOURNEY TOWARDS THE DREAM.</b>
+                    </p>
                     <Link to="/contact">
                         <button type='button' className='btn btn-danger btn-lg mx-0 mx-sm-2 my-2 my-sm-0'>Contact Us</button>
                     </Link>

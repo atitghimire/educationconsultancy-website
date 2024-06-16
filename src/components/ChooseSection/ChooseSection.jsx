@@ -5,7 +5,7 @@ function ChooseSection() {
   return (
     <div>
         <div className="container">
-            <h2 className='text-center mb-5'>Why choose React University ?</h2>
+            <h2 className='text-center mb-5'>Why choose EAST RISING SUN?</h2>
             <div className='row g-4'>
                 <div className='col-lg-4'>
                     <Card className='d-flex align-items-center border-0 h-100'>
@@ -16,10 +16,10 @@ function ChooseSection() {
                         </div>
                         <Card.Body>
                             <Card.Title className='text-center text-capitalize mb-3'>
-                                2 trophies received
+                                Awards Received
                             </Card.Title>
                             <Card.Text className='text-center'>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit laborum qui facilis perspiciatis, ab pariatur! Eaque maxime ratione illum distinctio?
+                               East Rising Sun Academy is one of Nepal's most feliciated consultancies.
                             </Card.Text>
                         </Card.Body>
                     </Card>
@@ -36,7 +36,7 @@ function ChooseSection() {
                                 We keep our students happy
                             </Card.Title>
                             <Card.Text className='text-center'>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit laborum qui facilis perspiciatis, ab pariatur! Eaque maxime ratione illum distinctio?
+                                Every queries of students are answered and have been successful in their respective exams.
                             </Card.Text>
                         </Card.Body>
                     </Card>
@@ -50,10 +50,10 @@ function ChooseSection() {
                         </div>
                         <Card.Body>
                             <Card.Title className='text-center text-capitalize mb-3'>
-                                3 locations in UK
+                                2 LOCATIONS IN NEPAL
                             </Card.Title>
                             <Card.Text className='text-center'>
-                                Lorem ipsum dolor sit amet consectetur adipisicing elit. Impedit laborum qui facilis perspiciatis, ab pariatur! Eaque maxime ratione illum distinctio?
+                                After shaping career of students in Kathmandu, on demand we are starting our services in Hetauda soon
                             </Card.Text>
                         </Card.Body>
                     </Card>

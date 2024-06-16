@@ -4,9 +4,9 @@ import Form from 'react-bootstrap/Form';
 import Col from 'react-bootstrap/Col';
 import Row from 'react-bootstrap/Row';
 import Button from 'react-bootstrap/Button';
-import LondonLocationImg from '../../utils/images/London-location.jpg';
-import ManchesterLocationImg from '../../utils/images/Manchester-location.jpg';
 import LiverpoolLocationImg from '../../utils/images/Liverpool-location.jpg';
+import KathmanduLocationImg from '../../utils/images/ktm-img.jpg';
+import HetaudaLocationImg from '../../utils/images/hetauda-img.png';
 
 function Contact() {
   return (
@@ -14,7 +14,7 @@ function Contact() {
         <header className='height-75'>
             <div className='container h-100 d-flex flex-column align-items-center justify-content-center text-light'>
                 <h1 className='text-center fw-semibold'>Get In Touch</h1>
-                <p className='text-center w-75 mb-5'>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Vitae pariatur qui quos aspernatur, voluptatem autem possimus esse quo consequatur omnis, soluta consectetur ullam ipsum cum!</p>
+                <p className='text-center w-75 mb-5'>Make us Part our jouney and lets join hands and let us give you wings so that you can towards your dream and pen a success story</p>
             </div>
         </header>
 
@@ -48,8 +48,8 @@ function Contact() {
                     <Col sm={12} md={6} className='mb-3 mb-md-0'>
                         <Form.Label>Location</Form.Label>
                         <Form.Select defaultValue="London">
-                            <option>London</option>
-                            <option>Manchester</option>
+                            <option>Koteshwor</option>
+                            <option>Hetauda</option>
                             <option>Liverpool</option>
                         </Form.Select>
                     </Col>
@@ -73,12 +73,12 @@ function Contact() {
                 <h2 className='text-center mb-5'>Our Locations</h2>
                 <div className='row g-4'>
                     <div className='col-lg-4 d-flex flex-column align-items-center'>
-                        <img src={LondonLocationImg} className='img-fluid' alt="" />
-                        <h3 className='text-center mt-3'>London</h3>
+                        <img src={KathmanduLocationImg} className='img-fluid' alt="" />
+                        <h3 className='text-center mt-3'>Koteshwor</h3>
                     </div>
                     <div className='col-lg-4 d-flex flex-column align-items-center'>
-                        <img src={ManchesterLocationImg} className='img-fluid' alt="" />
-                        <h3 className='text-center mt-3'>Manchester</h3>
+                        <img src={HetaudaLocationImg} className='img-fluid' alt="" />
+                        <h3 className='text-center mt-3'>Hetauda</h3>
                     </div>
                     <div className='col-lg-4 d-flex flex-column align-items-center'>
                         <img src={LiverpoolLocationImg} className='img-fluid' alt="" />

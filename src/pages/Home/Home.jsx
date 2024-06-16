@@ -13,20 +13,20 @@ const blogs = [
     {
         id: 1,
         img: [Blog1Img],
-        title: 'Blog 1',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque, fugit? Doloremque deserunt ipsum eaque, dolor tempore, minima nisi debitis, et quas voluptatibus nam ex. Necessitatibus eligendi ratione expedita! Porro, ut.'
+        title: 'Foreign Study',
+        description: 'Currently Global Scenario for Education has expanded to various countries. Many countries are offering various scholarships, fees, facilities and many more. Since world has become a global village, opportunities are huge'
     },
     {
         id: 2,
         img: [Blog2Img],
-        title: 'Blog 2',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque, fugit? Doloremque deserunt ipsum eaque, dolor tempore, minima nisi debitis, et quas voluptatibus nam ex. Necessitatibus eligendi ratione expedita! Porro, ut.'
+        title: 'Need for Languages Skills',
+        description: 'In today\'s interconnected world, proficiency in multiple languages is increasingly important. Language skills not only enhance communication but also open doors to diverse cultures and international career opportunities. Whether for academic pursuits, travel, or business, mastering new languages can significantly broaden one\'s horizons and increase adaptability in various global contexts.'
     },
     {
         id: 3,
         img: [Blog3Img],
-        title: 'Blog 3',
-        description: 'Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque, fugit? Doloremque deserunt ipsum eaque, dolor tempore, minima nisi debitis, et quas voluptatibus nam ex. Necessitatibus eligendi ratione expedita! Porro, ut.'
+        title: 'Student View',
+        description: 'East Rising Sun academy has sent many student to their dream detinations. Here are some views of the students'
     }
 ];
 
@@ -36,8 +36,8 @@ function Home() {
         <header className='h-100 min-vh-100 d-flex align-items-center text-light'>
             <div className='container d-flex flex-column align-items-center'>
                 <h2>Welcome To</h2>
-                <h1 className='text-center fw-semibold'>React University London</h1>
-                <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Eaque, fugit? Doloremque deserunt ipsum eaque, dolor tempore, minima nisi debitis, et quas voluptatibus nam ex. Necessitatibus eligendi ratione expedita! Porro, ut.</p>
+                <h1 className='text-center fw-semibold'>EAST RISING SUN ACADEMY</h1>
+                <p>A Leading Consultany of Nepal to teach you, make you ready and provide you correct path for your career and future</p>
                 <div className='d-flex flex-column flex-sm-row align-items-center'>
                     <Link to="/courses">
                         <button type='button' className='btn btn-danger btn-lg mx-0 mx-sm-2 my-2 my-sm-0'>Our Courses</button>
@@ -58,7 +58,7 @@ function Home() {
                 <div className='row d-flex align-items-center justify-content-around'>
                     <div className='col-lg-5'>
                         <h2 className='text-capitalize'>2024 start courses</h2>
-                        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Delectus, placeat.</p>
+                        <p>Exciting Courses designed effectively. Join today and be our family..</p>
                         <Link to="/courses">
                             <button type='button' className='btn btn-danger btn-lg mx-0 mx-sm-2 my-2 my-sm-0'>Learn More</button>
                         </Link>
